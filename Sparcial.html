@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>segundo parcial </title>
+    <link rel="stylesheet" href="estilo.css"> 
+ 
+   
+</head>
+
+<body>
+    <div class="principal">
+        <nav>
+            <div class="menu">
+                <ul>
+                <li>inicio</li>
+                <li>sobre nosotros</li>
+                <li>galeria</li>
+                <li>contacto</li>
+                </ul>
+                
+
+            </div>
+        </nav>
+    </div>
+    <section>
+        <div class="carrucel">
+           
+            <div>
+        
+                <img width="800"src="https://www.santevet.es/uploads/images/es_ES/articulos/razasperro.jpeg">
+
+            </div>
+           
+            </div>
+            <aside>
+                <div class="peque">
+         
+                    <img width="100"src="https://ae01.alicdn.com/kf/HTB1ot4_aBCw3KVjSZFlq6AJkFXax/Pegatina-de-vinilo-con-estampado-de-pata-de-Animal-veterinario-para-coche-pegatina-de-dibujos-animados.jpg_Q90.jpg_.webp">
+                    <ul>     
+                        <a href="">Veterinarias</a>
+                  </ul>
+                
+                    
+                </div>
+                
+                <div class="peque1">
+
+                    <img width="100"src="https://adiestradoresulecan.com/wp-content/uploads/2019/06/IMG-20190315-WA0000.jpg">
+                    <ul>     
+                        <a href="">Adiestramiento</a>
+                  </ul>
+
+                </div>
+                
+            </aside>
+            
+           
+            
+               
+        
+        </section>
+        <section><div class="foto">
+               
+            <div>
+        
+              
+            </div>
+
+        </section>
+        <main>
+            <section>
+                <article>
+                   <p class="fant">INICIAR SECION</p>
+                    <label for="INICIAR SECION"></label>
+                    <input type="texto"id="nombre"placeholder="Ingrese su nombre">
+                    <button id="Ingresar"onclick="Registro()">Registrar</button>
+                </article>
+                <article> 
+
+                     <img width="120"src="https://www.pngall.com/wp-content/uploads/10/Member-Silhouette-PNG-Photo.png">
+                     <label>BIENVENIDO(@)</label>
+                     <label id="r"></label>
+
+                </article>
+                <article>
+                    <p>
+                        ¿Te has preguntado alguna vez cuántas razas de perros hay? La FCI (Fédération Cynologique Internationale) reconoce a más de 300 razas de perros, sin embargo, existen muchas otras federaciones y clubes que reconocen variaciones y otras razas, por lo que existen miles de razas de perros realmente. Por ello, en ExpertoAnimal te hemos preparado la lista más completa, en la que encontrarás todas las razas de perros que existen, con sus respectivos nombres, fotos y descripción. Pero, además de los nombres de razas de perros, también podrás descubrir si pertenecen o no a la FCI, su país de origen, las características más relevantes o el tipo de clima más indicado.  
+
+                    </p>
+                </article>
+            </section>
+        </main>
+        <main>
+            <section>
+                <article>
+                    <p class="fant">INTRODUCION</p>
+                    <label>Una raza de perro está representada por un número suficiente de individuos que transfieren de manera estable sus características específicas a través de generaciones. Los perros de la misma raza tienen características similares en apariencia y comportamiento, sobre todo porque vienen de un sistema selecto de antepasados que tenían las mismas características.</label>
+                </article>
+                <article>
+                      <p>
+                      <label>Bolivianos</label>
+                      <input type="number"id="monto"placeholder="Ingrese el monto">
+                    </p>
+                    <p>
+                      <label>Dolares</label>
+                      <input type="number"id="resul"placeholder="">
+                    </p>
+                    <button onclick="Convertir()">Convertir</button>
+
+                    
+                    
+                </article>
+                <article>
+                    <p class="fant">RAZAS DE PERROS</p>
+                    <img width="400"src="https://c8.alamy.com/compes/r1r6rg/poster-de-razas-de-perros-en-ingles-r1r6rg.jpg">
+                </article>
+                
+               
+            </section>
+        </main>
+        <aside>
+            <div class="fin">
+                <p class="fant">DESARROLLODE LAS RAZAS</p>
+                <P>Las primeras selecciones se habrían centrado inicialmente en la domesticación y comportamiento útil del perro, como el ladrido hacía las criaturas desconocidas o las personas, la protección del ganado o la caza —como en el caso del grupo de los Terriers. Los perros han sido criados selectivamente para conseguir características específicas durante miles de años. La selección se habría centrado inicialmente en la domesticación y en comportamientos útiles como por ejemplo habilitados para la caza. Más adelante, los perros también fueron seleccionados para obtener morfologías atractivas y distintivas, dando como resultado una gran variedad de tipo.</P>
+            </div>
+        </aside>
+        
+<script>
+    function Registro(){
+            var nom=document.getElementById("nombre").value;
+            if(nom==""){
+                alert("Ingrese su nombre")
+            }
+            document.getElementById("r").innerHTML=nom;
+        }
+
+
+
+  
+
+
+   function Convertir()
+   {
+                    var n1=parseInt(document.getElementById("monto").value);
+                    var r;
+                    r=n1*6.88;
+                    document.getElementById("resul").value=r;
+                    document.getElementById("resul").style.textAlign= "center";
+                    document.getElementById("resultado").innerHTML="Bolivianos" ;
+        }
+</script>
+
+</body>
+</html>

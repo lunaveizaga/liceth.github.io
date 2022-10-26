@@ -1,0 +1,111 @@
+
+    .principal
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   nav
+    {
+          display: flex;
+          width: 100%;
+          background-color: rgb(208, 196, 22);
+          flex-direction: column;
+
+          flex-wrap: nowrap;
+          margin-top: 1%;
+    }
+    ul li {
+        display:inline-block;
+        font-size: 25px;
+        padding-left: 20px;
+        text-align: right;
+      
+    } 
+    .menu
+    {
+        width: flex;
+        flex-direction: column;
+        font-family: fantasy;
+    }
+    
+    .carrucel
+    {
+        float: left;
+        width: 50%;
+        padding : 1%;
+        border-color: rgb(255, 0, 43);
+
+            
+    }
+    .peque
+    {
+        float: left;
+            width: 30%;
+            padding: 0%;
+            text-align:right;
+            display: flex;    
+          
+    padding: 20%;
+    }
+    .peque1
+    {
+       float: left;
+          width: 30%;
+            display: flex;
+
+    padding: 18%;
+    margin-left: 10;
+            
+          
+    }
+    ul a{text-align:right;
+
+    }
+    .texto{
+        float: left;
+        width: 50%;
+        height: 150px;
+        border-radius: 2px solid rgba(162, 31, 171, 0.553);
+        background-color:rgba(63, 135, 143, 0.553);
+    }
+    
+    .foto
+    {
+        float: left;
+        width: 50%;
+        padding : 0%;
+     
+        text-align: center;
+
+            
+    }
+    main{
+        margin-top: 10px;
+        width:100%;
+    }
+    section{
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+    article {
+        width: 400px;
+        height: 350px;
+        margin: 5px;
+        padding: 5px;
+    }
+    body
+    {
+     background-image: url(https://fondosmil.com/fondo/106924.jpg);
+    }
+    .fin
+    {
+        float: left;
+        width: 50%;
+        height: 150px;
+        border-radius: 2px solid rgba(162, 31, 171, 0.553);
+      margin-left: 4%;
+      font-size: large;
+    }
+    p.fant {font-family: fantasy;}
